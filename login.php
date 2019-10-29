@@ -1,6 +1,7 @@
 require "rb.php"; // RedBeanPHP
 R::setup( 'mysql:host=localhost;dbname=dbname',
      'login', 'password' );
+session_start();
 
 $data = $_POST;
 $errors = array();
