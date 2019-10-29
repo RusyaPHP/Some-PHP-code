@@ -1,4 +1,4 @@
-require "rb.php";
+require "rb.php"; // RedBeanPHP
 R::setup( 'mysql:host=localhost;dbname=dbname',
      'login', 'password' );
 
